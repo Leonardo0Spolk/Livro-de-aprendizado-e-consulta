@@ -1,0 +1,19 @@
+div {
+    width: 100px;
+    height: 100px;
+    padding: 10px;
+    border: solid 10px green;
+}
+
+.com-border-box {
+    background-color: aquamarine;
+    box-sizing: border-box;
+}
+
+.sem-border-box {
+    background-color: blueviolet;
+}
+
+/*Sem a propriedade border box o tamanho final do elemento vai somar "padding, border"!
+
+Com a propriedade vai ser comprimido setado no tamanho definido! */

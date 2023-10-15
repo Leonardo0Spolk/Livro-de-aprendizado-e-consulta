@@ -1,0 +1,11 @@
+#identificador {
+    background-color: orange;
+}
+
+.descricao-produto {
+    background-color: aqua;
+}
+
+.promocao {
+    border: solid 10px green;
+}

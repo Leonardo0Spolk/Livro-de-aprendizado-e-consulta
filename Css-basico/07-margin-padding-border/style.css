@@ -1,0 +1,26 @@
+body {
+    background-color: aqua;
+}
+
+.borda {
+    border-style: solid;
+    border-width: 20px;
+    border-color: blueviolet blue orange greenyellow;
+}
+
+.margem-externa {
+    margin: 30px 20px 10px 40px;
+    background-color: blueviolet;
+}
+
+.margem-interna {
+    padding: 30px 20px 10px 40px;
+    background-color: blue;
+}
+
+.borda2 {
+    border: solid 20px red;
+}
+
+
+/*Este codigo esta na versão "short henge" que é a versão mais indicada de se usar/*
