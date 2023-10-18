@@ -1,0 +1,20 @@
+ul  {
+    list-style-image: url('./imagens/caterpie.gif');
+    background-color: blue;
+}
+
+ol {
+    list-style-image: url('./imagens/squirtle.gif');
+    background-color: #ff00f0;
+}
+
+.fallback {
+    list-style: square inside url('./imagens/caterpie.gif');
+}
+
+/* O inside é para por a imagem dentro da lista*/
+
+ol li {
+    border: 1px solid #00ffff;
+    padding: 20px;
+}

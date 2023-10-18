@@ -1,0 +1,46 @@
+p {
+    color: blueviolet;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.bg {
+    background-color: lightgreen;
+    background-image: url('./images/ruby1.jpg');
+}
+
+.bg-image {
+    width: 350px;
+    height: 512px;
+}
+
+.bg-repeat {
+    background-repeat: no-repeat;
+    width: 700px;
+    height: 512px;
+}
+
+.bg-size-cover {
+    background-size: cover;
+    width: 700px;
+    height: 1024px;
+}
+
+.bg-fixed {
+    background-attachment: fixed;
+    width: 700px;
+    height: 500px;
+}
+
+.bg-position {
+    background-position: bottom right;
+    background-repeat: no-repeat;
+    width: 700px;
+    height: 700px;
+}
+
+.short-henge {
+    background: #ccc url('images/ruby.gif') no-repeat right top;
+    width: 700px;
+    height: 700px;
+}

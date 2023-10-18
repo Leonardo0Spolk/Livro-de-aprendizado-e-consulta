@@ -1,0 +1,10 @@
+@font-face {
+    font-family: 'Daylight';
+    src: url('./fonts/Daylight.otf');
+}
+
+p {
+    font-family: 'Daylight', corsive, sans-serif;
+    font-size: 25px;
+    font-weight: 600;
+}
