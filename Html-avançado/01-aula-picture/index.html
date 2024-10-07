@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>imagens responsivas usando a tag picture</title>
+</head>
+<body>
+    <h1>Picture com mobile first</h1>
+    <picture>
+        <source media="(min-width: 1025px)" srcset="./src/images/rwby4.jpg">
+        <source media="(min-width: 769px)" srcset="./src/images/rwby3.jpg">
+        <source media="(min-width: 465px)" srcset="./src/images/rwby2.png">
+        <img src="./src/images/rwby1.jpg" alt="RWBY Ruby">
+    </picture>
+
+    <h1>Picture com desktop first</h1>
+    <picture>
+        <source media="(max-width: 465px)" srcset="./src/images/rwby1.jpg">
+        <source media="(max-width: 768px)" srcset="./src/images/rwby2.png">
+        <source media="(max-width: 1024px)" srcset="./src/images/rwby3.jpg">
+        <img src="./src/images/rwby4.jpg" alt="RWBY Ruby">
+    </picture>
+</body>
+</html>
