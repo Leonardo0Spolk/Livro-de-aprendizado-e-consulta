@@ -6,8 +6,20 @@
     <title>Video</title>
 </head>
 <body>
-    <h1>Video</h1>
+    <h1>Video 1</h1>
 
     <video src="./src/video/video.mp4" width="300" controls loop poster="./src/imagens/thumb.jpg"></video>
+
+    <h1>video 2</h1>
+
+    <video controls width="300" poster="./src/imagens/thumb.jpg">
+        <source src="./src/video/video.mp4" type="video/mp4">
+        <source src="./src/video/video.webm" type="video/webm">
+        <source src="./src/video/video.ogv" type="video/ogv">
+
+        <p>Este navegador nao tem suporte para tag video.</p>
+    </video>
+
+    <a href="https://convertio.co/pt/download/d23a9fc60ca1ef30bc874b6bc949348eb47151/" target="_blank" >Conversor de video</a>
 </body>
 </html>
