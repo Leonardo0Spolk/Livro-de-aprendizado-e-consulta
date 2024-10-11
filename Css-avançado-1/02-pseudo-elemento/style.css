@@ -1,0 +1,40 @@
+/* seletor::pseudo-elemento{
+    propriedade: valor;
+} */
+
+.primeira-letra::first-letter{
+    color: aqua;
+}
+
+.primeira-linha::first-line{
+    color: #ff0000;
+}
+
+.primeira-linha-letra::first-line{
+    color: aquamarine;
+}
+
+.primeira-linha-letra::first-letter{
+    background-color: #000;
+}
+
+li::marker{
+    color: #ff0000;
+    font-size: 23px;
+}
+
+h2::before{
+    content: url(../../Html-avançado/02-favicon/src/images/favicon-32x32.png);
+}
+
+h2::after{
+    content: ' Pós elemento';
+}
+
+h3::before{
+    content: '';
+    background: url(../../Html-avançado/02-favicon/src/images/favicon-32x32.png) center center no-repeat;
+    display: inline-block;
+    width: 85px;
+    height: 85px;
+}
