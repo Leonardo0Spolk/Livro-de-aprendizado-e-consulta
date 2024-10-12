@@ -1,0 +1,50 @@
+h1{
+    color: #00ff00;
+}
+
+.paragrafo {
+    background-color: aqua;
+}
+
+#menu {
+    margin-left: 100px;
+}
+
+*{
+    padding: 0;
+}
+
+.titulo.laranja{
+    color: orange;
+}
+
+.titulo.vermelho{
+    color: red;
+}
+
+.titulo{
+    font-size: 30px;
+}
+
+.com-virgula p, span{
+    font-size: 10px;
+}
+
+.sobre .texto{
+    color: #0000ff;
+}
+
+.seletor > p{
+    color: aquamarine;
+}
+
+/*seletor + estiliza o selecionado imediato apos o citado*/
+
+div + p{
+    color: yellowgreen;
+    font-size: 40px;
+}
+
+a[target=_blank]{
+    color: #00ff00;
+}
