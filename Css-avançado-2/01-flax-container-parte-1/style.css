@@ -1,0 +1,29 @@
+.container{
+    display: flex;
+
+    max-height: 500px;
+    max-width: 500px;
+}
+
+.item{
+    background-color: aquamarine;
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    text-align: center;
+}
+
+.direction{
+    /* Se não definido o padrão é row */
+    flex-direction: row-reverse;
+}
+
+.wrap{
+    /* Se não definido padrão é nowrap */
+    flex-wrap: wrap-reverse;
+}
+
+.flow{
+    /* Abreviação dos dois anteriores*/
+    flex-flow: column wrap;
+}
