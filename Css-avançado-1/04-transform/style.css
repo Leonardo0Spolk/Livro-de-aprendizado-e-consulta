@@ -3,7 +3,7 @@ img{
 }
 
 img.scale{
-    transform: scale(2, 3);
+    transform: scalex(2);
 }
 
 img.rotate{
@@ -11,5 +11,5 @@ img.rotate{
 }
 
 img.translate{
-    transform: translate(50px, 20px);
+    transform: translate(50px, 60px);
 }
