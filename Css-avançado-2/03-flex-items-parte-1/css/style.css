@@ -1,0 +1,72 @@
+.grow-0{
+    /* Valor padrão se não for colocado nenhum. */
+    flex-grow: 0;
+}
+
+.grow-1{
+    flex-grow: 1;
+}
+
+.grow-2{
+    flex-grow: 2;
+}
+
+.grow-3{
+    flex-grow: 3;
+}
+
+.basis-auto{
+    /* Valor padrão */
+    flex-basis: auto;
+}
+
+.basis-0{
+    /* Iguala o tamanho dos elementos */
+    flex-basis: 0;
+}
+
+.basis-100{
+    flex-basis: 100px;
+}
+
+.basis-200{
+    flex-basis: 200px;
+}
+
+.basis-300{
+    flex-basis: 300px;
+}
+
+.shrink-1{
+    /* Valor padrão */
+    flex-shrink: 1;
+}
+
+.shrink-2{
+    flex-shrink: 2;
+}
+
+.shrink-3{
+    flex-shrink: 3;
+}
+
+.shrink-0{
+    /* Define que o tamanho do conteudo pode estrapolar o tamanho do pai. */
+    flex-shrink: 0;
+}
+
+/* .abreviacao-0{
+    flex: 0 auto 1;
+}
+
+.abreviacao-1{
+    flex: 1 0 2;
+}
+
+.abreviacao-2{
+    flex: ;
+}
+
+.abreviacao-3{
+    
+} */
