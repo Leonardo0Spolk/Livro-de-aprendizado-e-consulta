@@ -1,0 +1,26 @@
+.container{
+    height: 130px;
+}
+
+.flex-star{
+    align-items: flex-start;
+}
+
+.center{
+    align-items: center;
+}
+
+.stretch{
+    align-items: stretch;
+}
+
+.baseline{
+    align-items: baseline;
+}
+
+.baseline .item{
+    flex: 1;
+}
+.baseline .item:first-child{
+    padding-top: 30px;
+}
