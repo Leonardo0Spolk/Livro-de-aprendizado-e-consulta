@@ -54,19 +54,3 @@
     /* Define que o tamanho do conteudo pode estrapolar o tamanho do pai. */
     flex-shrink: 0;
 }
-
-/* .abreviacao-0{
-    flex: 0 auto 1;
-}
-
-.abreviacao-1{
-    flex: 1 0 2;
-}
-
-.abreviacao-2{
-    flex: ;
-}
-
-.abreviacao-3{
-    
-} */
